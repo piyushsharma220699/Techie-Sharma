@@ -1,4 +1,4 @@
-//Reverse a stack using Recursion
+//Reverse a stack without using Recursion
 #include<bits/stdc++.h>
 using namespace std;
 
