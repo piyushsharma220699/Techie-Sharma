@@ -4,4 +4,6 @@
 
 Browse the channel to know more about me: https://www.youtube.com/channel/UCwAm47rI_cqAj4gPBX_idWg/about
 
+![Techie Sharma](https://github.com/piyushsharma220699/Techie-Sharma/blob/main/Images/YouTube_Snip.png)
+
 #### DROP A STAR TO SHOW SOME LOVE
