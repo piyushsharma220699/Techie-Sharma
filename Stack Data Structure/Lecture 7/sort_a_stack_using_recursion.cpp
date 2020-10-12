@@ -63,7 +63,7 @@ int main()
     cout<<endl;
 
     sort_stack(s1);
-    cout<<"Reverse sorting Applied"<<endl;
+    cout<<"Sorting operation Applied"<<endl;
 
     cout<<"Stack after sorting operation: ";
     printthestack(s1);
