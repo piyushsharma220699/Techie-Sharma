@@ -1,7 +1,8 @@
+//Nearest Smaller Element On Right Code From Scratch
 #include<bits/stdc++.h>
 using namespace std;
 
-vector<int> nearestSmallerElementOnLeft(vector<int>& v1)
+vector<int> nearestSmallerElementOnRight(vector<int>& v1)
 {
     vector<int> answer(v1.size());
     stack<int> s1;
@@ -47,9 +48,9 @@ int main()
     cout<<endl;
 
     vector<int> v2;
-    v2=nearestSmallerElementOnLeft(v1);
+    v2=nearestSmallerElementOnRight(v1);
 
-    cout<<"Nearest Smaller Element on Left: ";
+    cout<<"Nearest Smaller Element on Right: ";
     
     for(int i=0; i<v2.size(); i++)
         cout<<v2[i]<<" ";
