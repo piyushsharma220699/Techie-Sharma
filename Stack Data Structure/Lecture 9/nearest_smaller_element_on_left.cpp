@@ -1,8 +1,8 @@
-//Nearest Greater Element On Left Code From Scratch
+//Nearest Smaller Element On Left Code From Scratch
 #include<bits/stdc++.h>
 using namespace std;
 
-vector<int> nearestGreaterElementOnLeft(vector<int>& v1)
+vector<int> nearestSmallerElementOnLeft(vector<int>& v1)
 {
     vector<int> answer(v1.size());
     stack<int> s1;
@@ -14,12 +14,12 @@ vector<int> nearestGreaterElementOnLeft(vector<int>& v1)
         if(s1.empty())
             temp=-1;
 
-        else if(s1.top()>v1[i])
+        else if(s1.top()<v1[i])
             temp=s1.top();
 
-        else if(s1.top()<=v1[i])
+        else if(s1.top()>=v1[i])
         {
-            while(!s1.empty() && s1.top()<=v1[i])
+            while(!s1.empty() && s1.top()>=v1[i])
                 s1.pop();
             
             if(s1.empty())
@@ -48,9 +48,9 @@ int main()
     cout<<endl;
 
     vector<int> v2;
-    v2=nearestGreaterElementOnLeft(v1);
+    v2=nearestSmallerElementOnLeft(v1);
 
-    cout<<"Nearest Greater Element on Left: ";
+    cout<<"Nearest Smaller Element on Left: ";
     
     for(int i=0; i<v2.size(); i++)
         cout<<v2[i]<<" ";
