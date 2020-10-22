@@ -1,4 +1,4 @@
-//Stock Span Problem Code From Scratch
+//Stock Span Problem Code From
 #include<bits/stdc++.h>
 using namespace std;
 
