@@ -46,7 +46,7 @@ int main()
 { 
     vector<vector<int>> v1{ {0,0,1,1},
                             {1,0,1,0},
-                            {0,0,0,0},
+                            {0,1,0,0},
                             {0,1,1,0} };
 
     int celebrity = CelebrityProblem(v1);
